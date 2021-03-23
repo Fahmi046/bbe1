@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+  <head>
+    <!-- Document Meta
+    ============================================= -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--IE Compatibility Meta-->
+    <meta name="author" content="zytheme" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta
+      name="description"
+      content="Multi-purpose Business html5 landing page"
+    />
+    <link href="assets/images/favicon/favicon.ico" rel="icon" />
+
+    <!-- Fonts
+    ============================================= -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- Stylesheets
+    ============================================= -->
+    <link href="assets/css/external.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="assets/css/style.css" rel="stylesheet" />
+		<link href="assets/css/bootstrap-datepicker3.min.css" rel="stylesheet" />
+		<link href="assets/datatables/css/dataTables.bootstrap.css" rel="stylesheet" />
+		<link href="assets/datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Document Title
+    ============================================= -->
+    <title>PTBBE.CO.ID</title>
+  </head>
+
+  <body class="body-scroll">
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="wrapper clearfix">
+      <!-- Header
+        ============================================= -->
+      <header
+        id="navbar-spy"
+        class="header header-1 header-transparent header-fixed"
+      >
+        <nav id="primary-menu" class="navbar navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                data-target="#navbar-collapse-1"
+                aria-expanded="false"
+              >
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="logo" href="index.php">
+                <img
+                  class="logo-dark"
+                  src="assets/images/logo/logo-bbe.png"
+                  alt="Vero Logo"
+                />
+                <img
+                  class="logo-light"
+                  src="assets/images/logo/logo-bbe.png"
+                  alt="Vero Logo"
+                />
+              </a>
+            </div>
+            <div
+              class="collapse navbar-collapse pull-right"
+              id="navbar-collapse-1"
+            >
+              <ul class="nav navbar-nav nav-pos-right navbar-left nav-split">
+                <li class="active">
+                  <a data-scroll="scrollTo" href="#slider">Beranda</a>
+                </li>
+                <li><a data-scroll="scrollTo" href="#feature2">Prosedur</a></li>
+                <li>
+                  <a data-scroll="scrollTo" href="#reviews">Pengumuman</a>
+                </li>
+                <li><a data-scroll="scrollTo" href="#clients">FAQ</a></li>
+                <li><a data-scroll="scrollTo" href="#cta">Kontak</a></li>
+              </ul>
+            </div>
+            <!--/.nav-collapse -->
+          </div>
+        </nav>
+      </header>
+
+      <!-- Slider #1
+		============================================= -->
+      <section id="slider" class="section slider slider-form">
+        <div class="slide--item bg-overlay bg-overlay-dark">
+          <div class="bg-section">
+            <img src="assets/images/background/bg-5.jpg" alt="bg" />
+          </div>
+          <div class="container">
+            <div class="row row-content">
+              <div class="col-xs-12 col-sm-6 col-md-5 pt-100">
+                <div class="slide--headline">
+                  Mari bergabung menjadi Rekanan Bisnis kami
+                </div>
+                <div class="slide--bio">
+                  This should be used to tell a story app benefits & more to
+                  present project.This should be used to tell a story and let
+                  your users know.
+                </div>
+                <div class="slide--video">
+                  <a
+                    class="btn--video popup-video"
+                    href="https://www.youtube.com/watch?v=nrJtHemSPW4"
+                    ><i class="fa fa-play"></i>Watch Overview</a
+                  >
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-2">
+                <div class="slide--action">
+                  <h6>Pendaftaran Menjadi Rekanan</h6>
+                  <form class="mb-0">
+                    <div>
+                      <label>Nama Anda</label>
+                      <input type="text" name="nama" class="form-control" />
+                    </div>
+                    <div>
+                      <label>Nama Perusahaan</label>
+                      <input
+                        type="text"
+                        name="perusahaan"
+                        class="form-control"
+                      />
+                    </div>
+                    <div>
+                      <label>No Telpon Perusahaan</label>
+                      <input type="text" name="telpon" class="form-control" />
+                    </div>
+                    <div>
+                      <label>Email Perusahaan</label>
+                      <input type="email" name="email" class="form-control" />
+                    </div>
+                    <div>
+                      <input
+                        type="submit"
+                        class="btn btn--primary btn--block mt-10"
+                        value="Hubungi kami"
+                      />
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <!-- .row end -->
+          </div>
+          <!-- .container end -->
+        </div>
+        <!-- .slide-item end -->
+      </section>
+      <!-- #slider end -->
+
+      <!-- Feature #1
+		============================================= -->
+      <section id="feature1" class="section feature feature-left bg-white">
+        <div class="container">
+          <div class="row">
+            <!-- Panel #1 -->
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+                <div class="feature--icon">
+                  <i class="lnr lnr-chart-bars"></i>
+                </div>
+                <div class="feature--content">
+                  <h3>Proyek Terpercaya</h3>
+                  <p>
+                    Vero impresses you with fully responsiveness and highly
+                    customization.
+                  </p>
+                </div>
+              </div>
+              <!-- .feature-panel end -->
+            </div>
+            <!-- .col-md-4 end -->
+
+            <!-- Panel #2 -->
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+                <div class="feature--icon">
+                  <i class="lnr lnr-users"></i>
+                </div>
+                <div class="feature--content">
+                  <h3>Rekanan Pebisnis</h3>
+                  <p>
+                    Vero impresses you with fully responsiveness and highly
+                    customization.
+                  </p>
+                </div>
+              </div>
+              <!-- .feature-panel end -->
+            </div>
+            <!-- .col-md-4 end -->
+
+            <!-- Panel #3 -->
+            <div class="col-xs-12 col-sm-4 col-md-4">
+              <div class="feature-panel wow fadeInUp" data-wow-duration="1s">
+                <div class="feature--icon">
+                  <i class="lnr lnr-gift"></i>
+                </div>
+                <div class="feature--content">
+                  <h3>Proses Mudah</h3>
+                  <p>
+                    Vero impresses you with fully responsiveness and highly
+                    customization.
+                  </p>
+                </div>
+              </div>
+              <!-- .feature-panel end -->
+            </div>
+            <!-- .col-md-4 end -->
+          </div>
+          <!-- .row end -->
+        </div>
+        <!-- .container end -->
+      </section>
+      <!-- #feature2 end -->
+
+      <!-- Feature #2
+		============================================= -->
+      <section id="feature2" class="section feature feature-2">
+        <div class="container">
+          <div class="row clearfix">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+              <div
+                class="heading heading-1 mb-80 text--center wow fadeInUp"
+                data-wow-duration="1s"
+              >
+                <h2 class="heading--title">Tahapan Prosedur Registrasi</h2>
+              </div>
+            </div>
+            <!-- .col-md-6 end -->
+          </div>
+          <!-- .row end -->
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 wow fadeInUp">
+              <img
+                class="img-responsive"
+                src="assets/images/background/bg-2.jpg"
+                alt="device"
+              />
+            </div>
+            <!-- .col-md-6 end -->
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="wow fadeInUp" data-wow-duration="1s">
+                <h3 class="">1. Melakukan Pendaftaran Rekanan</h3>
+                <p class="">
+                  Duis aute irure dolor in reprehenderit in voluptate esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui official.
+                </p>
+              </div>
+            </div>
+            <!-- .col-md-6 end -->
+          </div>
+          <!-- .row end -->
+        </div>
+        <!-- .container end -->
+      </section>
+      <!-- #feature2 end -->
+
+      <!-- Divider
+		============================================= -->
+      <section class="pt-0 pb-0">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <hr class="feature-divider" />
+            </div>
+          </div>
+          <!-- .row end -->
+        </div>
+        <!-- .container end -->
+      </section>
+
+      <!-- Feature #2
+		============================================= -->
+      <section id="feature3" class="section feature feature-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="wow fadeInUp" data-wow-duration="1s">
+                <h3 class="">
+                  2. Memunggu Verifikasi Email
+                </h3>
+                <p class="">
+                  Duis aute irure dolor in reprehenderit in voluptate esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui official.
+                </p>
+              </div>
+            </div>
+            <!-- .col-md-6 end -->
+            <div class="col-xs-12 col-sm-6 col-md-6 wow fadeInUp">
+              <img
+                class="img-responsive pull-right"
+                src="assets/images/background/bg-3.jpg"
+                alt="device"
+              />
+            </div>
+            <!-- .col-md-6 end -->
+          </div>
+          <!-- .row end -->
+        </div>
+        <!-- .container end -->
+      </section>
+      <!-- #feature2 end -->
+
+      <section id="feature2" class="section feature feature-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 wow fadeInUp">
+              <img
+                class="img-responsive"
+                src="assets/images/background/bg-2.jpg"
+                alt="device"
+              />
+            </div>
+            <!-- .col-md-6 end -->
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="wow fadeInUp" data-wow-duration="1s">
+                <h3 class="">3. Menyiapakan Data Persyaratan</h3>
+                <p class="">
+                  Duis aute irure dolor in reprehenderit in voluptate esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui official.
+                </p>
+              </div>
+            </div>
+            <!-- .col-md-6 end -->
+          </div>
+          <!-- .row end -->
+        </div>
+        <!-- .container end -->
+      </section>
+      <!-- #feature2 end -->
+
+      <!-- reviews
+        ============================================= -->
+      <section id="reviews" class="section reviews pb-70 bg-white">
+        <div class="container">
+          <div class="row clearfix">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3">
+              <div
+                class="heading heading-1 mb-80 text--center wow fadeInUp"
+                data-wow-duration="1s"
+              >
+                <h2 class="heading--title">Pengumuman Lelang</h2>
+              </div>
+            </div>
+            <!-- .col-md-6 end -->
+          </div>
+          <!-- .row end -->
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+
+								<div
+                class="heading heading-1 mb-80 text--center wow fadeInUp"
+                data-wow-duration="1s"
+              >
+              <table class="table table-dark table-striped table-bordered data">
+                <thead class="table-dark">
+                  <tr>
+                    <th>Aksi</th>
+                    <th>No</th>
+										<th>Nama Pengadaan</th>
+										<th>Kode Lelang</th>
+										<th>Lingkup Pekerjaan</th>
+										<th>Metode Pengadaan</th>
+										<th>Metode Penawaran</th>	
+										<th>Terbit</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a>Cetak</a></td>
+                    <td>1</td>
+										<td>proyek1</td>
+										<td>111</td>
+										<td>pengerjaan jembatan</td>
+										<td>Penawaran kopetitif</td>
+										<td>2-sampul</td>
+										<td>22 Maret 2022, 13:00 (WITA)</td>
+                  </tr>
+                  <tr>
+											<td><a>Cetak</a></td>
+											<td>2</td>
+											<td>proyek1</td>
+											<td>111</td>
+											<td>pengerjaan jembatan</td>
+											<td>Penawaran kopetitif</td>
+											<td>2-sampul</td>
+											<td>22 Maret 2022, 13:00 (WITA)</td>
+                  </tr>
+                  <tr>
+											<td><a>Cetak</a></td>
+											<td>3</td>
+											<td>proyek1</td>
+											<td>111</td>
+											<td>pengerjaan jembatan</td>
+											<td>Penawaran kopetitif</td>
+											<td>2-sampul</td>
+											<td>22 Maret 2022, 13:00 (WITA)</td>
+                  </tr>
+                  <tr>
+											<td><a>Cetak</a></td>
+											<td>4</td>
+											<td>proyek1</td>
+											<td>111</td>
+											<td>pengerjaan jembatan</td>
+											<td>Penawaran kopetitif</td>
+											<td>2-sampul</td>
+											<td>22 Maret 2022, 13:00 (WITA)</td>
+                  </tr>
+                  <tr>
+											<td><a>Cetak</a></td>
+											<td>5</td>
+											<td>proyek1</td>
+											<td>111</td>
+											<td>pengerjaan jembatan</td>
+											<td>Penawaran kopetitif</td>
+											<td>2-sampul</td>
+											<td>22 Maret 2022, 13:00 (WITA)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <!-- .row End -->
+        </div>
+        <!-- .container End -->
+      </section>
+      <!-- #reviews End-->
+
+      <!-- Clients Carousel Section
+		=== === === === === === === === === === === === === === -->
+      <section id="clients" class="section clients bg-theme">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+						 <!-- FAQ -->
+						 <div class="panel-group" id="accordion">
+								<h3 class="heading--title text-center">FAQ</h3>
+								<div class="panel panel-default">
+										<div class="panel-heading">
+												<h4 class="panel-title">
+														<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Is account registration required?</a>
+												</h4>
+										</div>
+										<div id="collapseOne" class="panel-collapse collapse in">
+												<div class="panel-body">
+														Account registration at <strong>PrepBootstrap</strong> is only required if you will be selling or buying themes. 
+														This ensures a valid communication channel for all parties involved in any transactions. 
+												</div>
+										</div>
+								</div>
+								<div class="panel panel-default">
+										<div class="panel-heading">
+												<h4 class="panel-title">
+														<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTen">Can I submit my own Bootstrap templates or themes?</a>
+												</h4>
+										</div>
+										<div id="collapseTen" class="panel-collapse collapse">
+												<div class="panel-body">
+														A lot of the content of the site has been submitted by the community. Whether it is a commercial element/template/theme 
+														or a free one, you are encouraged to contribute. All credits are published along with the resources. 
+												</div>
+										</div>
+								</div>
+								<div class="panel panel-default">
+										<div class="panel-heading">
+												<h4 class="panel-title">
+														<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">What is the currency used for all transactions?</a>
+												</h4>
+										</div>
+										<div id="collapseEleven" class="panel-collapse collapse">
+												<div class="panel-body">
+														All prices for themes, templates and other items, including each seller's or buyer's account balance are in <strong>USD</strong>
+												</div>
+										</div>
+								</div>
+						 <!-- FAQ end -->
+            </div>
+            <!-- .col-md-12 end -->
+          </div>
+          <!-- .row end -->
+        </div>
+        <!-- .container end -->
+      </section>
+      <!-- #clients end -->
+
+      <!-- Action #1
+		============================================= -->
+      <section id="cta" class="section bg-white">
+        <div class="container">
+						<div class="row">
+								<div class="col-xs-12 col-sm-6 col-md-4 fadeInUp">
+										<h1>Kontak Kami</h1>
+                  
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                      <span class="hl">Alamat:</span>
+                      <span class="text">Samarinda, Kalimantan timur</span>
+                      </li>
+                      <li class="list-group-item">
+                      <span class="hl">Telepon:</span> 
+                      <span class="text">+62 822-5103-7705 </span>
+                      </li>
+                      <li class="list-group-item">
+                      <span class="hl">E-mail:</span>
+                      <span class="text">Info@ptbbe.co.id</span>
+                      </li>
+                      <li class="list-group-item">
+                        <span class="hl">Instagram :</span>
+                        <span class="text"><a target="_blank" href="https://www.instagram.com/bubuhanborneoetam/"> @BubuhanBorneoetam <i class="fa fa-instagram"></i></a></span>
+                      </li>
+                      <li class="list-group-item">
+                        <span class="hl">Facebook :</span>
+                        <span class="text"><a target="_blank" href="https://www.facebook.com/Pt-Bubuhan-Borneo-Etam-106012304898869">@Pt.Bubuhan Borneo Etam <i class="fa fa-facebook"></i></a>
+                      </li>
+                      <li class="list-group-item">
+                        <span class="hl">LinkedIn :</span>
+                        <span class="text"><a target="_blank" href="https://www.linkedin.com/company/pt-bubuhan-borneo-etam">@PT Bubuhan Borneo Etam <i class="fa fa-linkedin"></i></a>
+                      </li>
+                      </ul>
+								</div>
+								<!-- .col-md-6 end -->
+								
+							</div>
+						
+          <!-- .row end -->
+        </div>
+        <!-- .container end -->
+      </section>
+      <!-- #cta end -->
+
+      <!-- Footer 
+		============================================= -->
+      <footer id="footer" class="footer footer-5">
+        <!-- Copyrights
+			============================================= -->
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <div class="footer--copyright text-center">
+                <span
+                  >&copy; 2021 ptbbe.co.id , All right reserved
+              </div>
+            </div>
+            <!-- .col-md-6 end -->
+          </div>
+          <!-- .row end -->
+        </div>
+        <!-- .container end -->
+      </footer>
+    </div>
+    <!-- #wrapper end -->
+
+    <!-- Footer Scripts
+	============================================= -->
+    <script src="assets/js/jquery-2.2.4.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+		<script src="assets/js/functions.js"></script>
+		<script src="assets/js/bootstrap-datepicker.min.js"></script>
+		<script src="assets/datatables/js/dataTables.bootstrap.js"></script>
+		<script src="assets/datatables/js/jquery.dataTables.min.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.data').DataTable();
+			});
+		</script>
+  </body>
+</html>
